@@ -6,6 +6,7 @@ const (
 	English Language = iota
 	Italian
 	German
+	Polish
 )
 
 func Greet(l Language) string {
@@ -13,6 +14,7 @@ func Greet(l Language) string {
 		English: "Hello!",
 		Italian: "Ciao!",
 		German:  "Hallo!",
+		Polish:  "Cześć!",
 	}
 	return g[l]
 }
